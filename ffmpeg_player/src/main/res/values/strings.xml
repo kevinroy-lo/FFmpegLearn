@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ffmpegPlayer</string>
+
+    <string-array name="video_list">
+        <item>input.mp4</item>
+        <item>Titanic.mkv</item>
+        <item>Warcraft3_End.avi</item>
+        <item>hehuoren.flv</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tiemagolf.ffmpegplayer.VideoView
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="40dip"
+        android:layout_gravity="bottom"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/sp_video"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:onClick="mPlay"
+            android:textColor="@android:color/black"
+            android:text="视频播放" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:onClick="mSoundDecode"
+            android:textColor="@android:color/black"
+            android:text="音频播放" />
+
+    </LinearLayout>
+
+</FrameLayout>
